@@ -11,6 +11,10 @@
 /*.csproj
 /*.pidb
 /*.userprefs
+/.vs
+
+/*/.DS_Store
+/.DS_Store
 
 # Build files
 /Build/
