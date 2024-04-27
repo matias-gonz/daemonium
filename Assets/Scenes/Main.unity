@@ -158,7 +158,7 @@ Transform:
   m_LocalScale: {x: 6.43, y: 4.1749287, z: 4.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824283734}
+  m_Father: {fileID: 2055124359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &211193183
 SpriteRenderer:
@@ -242,7 +242,7 @@ Transform:
   m_LocalScale: {x: 4.2, y: 4.2, z: 4.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 824283734}
+  m_Father: {fileID: 1694007167}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &252912496
 SpriteRenderer:
@@ -416,10 +416,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1133835806}
-  - {fileID: 211193182}
-  - {fileID: 1562431982}
-  - {fileID: 252912495}
+  - {fileID: 2055124359}
+  - {fileID: 1694007167}
   m_Father: {fileID: 771443715}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &924118583
@@ -568,6 +566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1068794674}
+  - component: {fileID: 1068794675}
   m_Layer: 0
   m_Name: Middleground
   m_TagString: Untagged
@@ -592,6 +591,21 @@ Transform:
   - {fileID: 5268114227588091311}
   m_Father: {fileID: 771443715}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1068794675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068794673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1954189b75d2046519682556e3a8dc2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 2, y: 2}
+  direction: {x: -1, y: 0}
+  isLinkedToCamera: 0
 --- !u!1 &1133835805
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +636,7 @@ Transform:
   m_LocalScale: {x: 6.43, y: 4.1749287, z: 4.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 824283734}
+  m_Father: {fileID: 2055124359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1133835807
 SpriteRenderer:
@@ -768,7 +782,7 @@ Transform:
   m_LocalScale: {x: 4.2, y: 4.2, z: 4.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 824283734}
+  m_Father: {fileID: 1694007167}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1562431983
 SpriteRenderer:
@@ -822,6 +836,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1694007166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1694007167}
+  - component: {fileID: 1694007168}
+  m_Layer: 0
+  m_Name: Spikes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1694007167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694007166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1562431982}
+  - {fileID: 252912495}
+  m_Father: {fileID: 824283734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1694007168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694007166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1954189b75d2046519682556e3a8dc2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 1, y: 1}
+  direction: {x: -1, y: 0}
+  isLinkedToCamera: 0
 --- !u!4 &1746849116 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3943087576995257846, guid: 3b0973afa143442d0b789e9bf10e549e, type: 3}
@@ -872,6 +935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1964476857}
+  - component: {fileID: 1964476858}
   m_Layer: 0
   m_Name: Foreground
   m_TagString: Untagged
@@ -898,6 +962,70 @@ Transform:
   - {fileID: 1947957235}
   m_Father: {fileID: 771443715}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964476858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964476856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1954189b75d2046519682556e3a8dc2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 0.5, y: 0.5}
+  direction: {x: -1, y: 0}
+  isLinkedToCamera: 1
+--- !u!1 &2055124358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055124359}
+  - component: {fileID: 2055124360}
+  m_Layer: 0
+  m_Name: Fog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2055124359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055124358}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1133835806}
+  - {fileID: 211193182}
+  m_Father: {fileID: 824283734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2055124360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055124358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1954189b75d2046519682556e3a8dc2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 0.5, y: 0.5}
+  direction: {x: -1, y: 0}
+  isLinkedToCamera: 0
 --- !u!4 &2089471091 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1131164938931999944, guid: 05b75305e6e3846ddaf8973ceb94f52f, type: 3}
