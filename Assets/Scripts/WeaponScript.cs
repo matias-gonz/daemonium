@@ -7,10 +7,12 @@ public class WeaponScript : MonoBehaviour
     public Transform shotPrefab;
     public float shootingRate = 0.25f;
     private float _shootCooldown;
+    
     void Start()
     {
-        _shootCooldown = 0f;
+        _shootCooldown = Random.Range(0f, shootingRate);
     }
+    
     void Update()
     {
         if (_shootCooldown > 0)

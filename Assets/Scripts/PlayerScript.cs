@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,11 +10,13 @@ public class PlayerScript : MonoBehaviour
     Rigidbody2D rigidbodyComponent;
     private Rigidbody2D _rigidbody2D;
     private WeaponScript _weapon;
+    private HealthScript _health;
 
     void Start()
     {
         _weapon = GetComponent<WeaponScript>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _health = GetComponent<HealthScript>();
     }
 
     void Update()
@@ -41,5 +44,16 @@ public class PlayerScript : MonoBehaviour
         if (!rigidbodyComponent) rigidbodyComponent = _rigidbody2D;
 
         rigidbodyComponent.velocity = movement;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        HealthScript enemy = collision.gameObject.GetComponent<HealthScript>();
+        
+        if (enemy != null && enemy.isEnemy)
+        {
+            enemy.Damage(enemy.hp);
+            _health.Damage(_health.hp);
+        }
     }
 }
