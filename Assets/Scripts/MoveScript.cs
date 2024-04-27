@@ -13,11 +13,6 @@ public class MoveScript : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
-
-    void Update()
-    {
-        
-    }
     
     void FixedUpdate()
     {
