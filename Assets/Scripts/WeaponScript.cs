@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponScript : MonoBehaviour
 {
     public Transform shotPrefab;
-    public float shootingRate = 0.25f;
+    public float shootingRate = 0.5f;
     private float _shootCooldown;
     
     void Start()
@@ -24,7 +24,15 @@ public class WeaponScript : MonoBehaviour
     {
         if (CanAttack)
         {
-            _shootCooldown = Random.Range(0.1f, shootingRate);;
+            if (isEnemy)
+            {
+                _shootCooldown = Random.Range(0.1f, shootingRate);
+            }
+            else
+            {
+                _shootCooldown = shootingRate;
+            }
+            
             var shotTransform = Instantiate(shotPrefab) as Transform;
             shotTransform.position = transform.position;
             ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();

@@ -174,6 +174,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 5, y: 5}
+  movementKeys: 77000000610000007300000064000000
+  shootKey: 32
 --- !u!114 &202360572028049488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 4376280752549594544, guid: 90f64bbbad4f743199c87d6f2f95c7d0, type: 3}
-  shootingRate: 0.25
+  shootingRate: 1
 --- !u!114 &-3093927358294762938
 MonoBehaviour:
   m_ObjectHideFlags: 0
