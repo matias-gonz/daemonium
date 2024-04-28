@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 7571771489118417754}
   - component: {fileID: 202360572028049488}
   - component: {fileID: -3093927358294762938}
-  - component: {fileID: 7689943032077847015}
   m_Layer: 0
   m_Name: Morgana
   m_TagString: Untagged
@@ -174,6 +173,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6603112b5cdd48cb918137e994baad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: {x: 5, y: 5}
+  movementKeys: 11010000140100001201000013010000
+  shootKey: 13
 --- !u!114 &202360572028049488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,19 +204,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1
   isEnemy: 0
---- !u!114 &7689943032077847015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8642020764397179492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1954189b75d2046519682556e3a8dc2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 2.5, y: 2.5}
-  direction: {x: 1, y: 0}
-  isLinkedToCamera: 1
-  isLooping: 0

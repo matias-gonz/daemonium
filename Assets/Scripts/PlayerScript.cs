@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    Vector2 speed = new(5, 5);
-    Vector2 movement;
-    Rigidbody2D rigidbodyComponent;
+    public Vector2 speed = new(5, 5);
+    public KeyCode[] movementKeys = { KeyCode.W, KeyCode.A, KeyCode.S, KeyCode.D };
+    public KeyCode shootKey = KeyCode.Space;
+    
+    private Vector2 _movement;
     private Rigidbody2D _rigidbody2D;
     private WeaponScript _weapon;
     private HealthScript _health;
@@ -21,13 +23,26 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
-        movement = new Vector2(
-            speed.x * Input.GetAxis("Horizontal"),
-            speed.y * Input.GetAxis("Vertical")
-        );
-
-        bool shoot = Input.GetButtonDown("Fire1");
-        shoot |= Input.GetButtonDown("Fire2");
+        _movement = new Vector2(0, 0);
+        if (Input.GetKey(movementKeys[0]))
+        {
+            _movement.y = speed.y;
+        }
+        else if (Input.GetKey(movementKeys[2]))
+        {
+            _movement.y = -speed.y;
+        }
+        
+        if (Input.GetKey(movementKeys[3]))
+        {
+            _movement.x = speed.x;
+        }
+        else if (Input.GetKey(movementKeys[1]))
+        {
+            _movement.x = -speed.x;
+        }
+        
+        bool shoot = Input.GetKey(shootKey);
 
         if (shoot)
         {
@@ -65,9 +80,7 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!rigidbodyComponent) rigidbodyComponent = _rigidbody2D;
-
-        rigidbodyComponent.velocity = movement;
+        _rigidbody2D.velocity = _movement;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
