@@ -46,10 +46,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entities:
-  - {fileID: 6925789828803194778, guid: 855878f6226d94ed48b9b783af022542, type: 3}
   - {fileID: 6925789828803194778, guid: 05b75305e6e3846ddaf8973ceb94f52f, type: 3}
+  - {fileID: 6925789828803194778, guid: 855878f6226d94ed48b9b783af022542, type: 3}
   entitiesSpawnProbabilityDistribution:
-  - 0.7
+  - 0.3
   - 1
   maxSpawnRate: 2
   spawnArea: {x: 0, y: 4.5}

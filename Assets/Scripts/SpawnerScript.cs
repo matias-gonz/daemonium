@@ -37,7 +37,7 @@ public class SpawnerScript : MonoBehaviour
             {
                 if (randomValue < entitiesSpawnProbabilityDistribution[i])
                 {
-                    Instantiate(entities[i], spawnPosition, Quaternion.identity);
+                    Instantiate(entities[i], spawnPosition, entities[i].transform.rotation);
                     break;
                 }
             }
