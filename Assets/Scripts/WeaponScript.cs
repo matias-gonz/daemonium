@@ -10,7 +10,7 @@ public class WeaponScript : MonoBehaviour
     
     void Start()
     {
-        _shootCooldown = Random.Range(0f, shootingRate);
+        _shootCooldown = shootingRate;
     }
     
     void Update()
@@ -24,7 +24,7 @@ public class WeaponScript : MonoBehaviour
     {
         if (CanAttack)
         {
-            _shootCooldown = shootingRate;
+            _shootCooldown = Random.Range(0.1f, shootingRate);;
             var shotTransform = Instantiate(shotPrefab) as Transform;
             shotTransform.position = transform.position;
             ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
@@ -39,11 +39,6 @@ public class WeaponScript : MonoBehaviour
             }
         }
     }
-    public bool CanAttack
-    {
-        get
-        {
-            return _shootCooldown <= 0f;
-        }
-    }
+    
+    public bool CanAttack => _shootCooldown <= 0f;
 }

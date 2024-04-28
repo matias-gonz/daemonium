@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     private bool hasSpawn;
-    private MoveScript _moveScript;
     private WeaponScript _weapon;
     private Collider2D _collider;
     private SpriteRenderer _renderer;
@@ -14,7 +13,6 @@ public class EnemyScript : MonoBehaviour
     void Awake()
     {
         _weapon = GetComponentInChildren<WeaponScript>();
-        _moveScript = GetComponent<MoveScript>();
         _collider = GetComponent<Collider2D>();
         _renderer = GetComponent<SpriteRenderer>();
     }
@@ -24,8 +22,10 @@ public class EnemyScript : MonoBehaviour
         hasSpawn = false;
         _collider.enabled = false;
         _renderer.enabled = false;
-        _moveScript.enabled = false;
-        _weapon.enabled = false;
+        if (_weapon)
+        {
+            _weapon.enabled = false;
+        }
     }
 
     void Update()
@@ -56,7 +56,9 @@ public class EnemyScript : MonoBehaviour
         hasSpawn = true;
         _collider.enabled = true;
         _renderer.enabled = true;
-        _moveScript.enabled = true;
-        _weapon.enabled = true;
+        if (_weapon)
+        {
+            _weapon.enabled = true;
+        }
     }
 }
