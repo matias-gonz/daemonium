@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 97da64afb40cb49c5a789875472dda20
+guid: 83cb15b1396ab494b9f41b0e76094372
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Circe_0
+      name: Morgana_0
       rect:
         serializedVersion: 2
         x: 7
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad6b6b9c867c4fd29acab57404af65e
-      internalID: -723172041
+      spriteID: 56e00f3c863b54d75a6076f6c1a7171b
+      internalID: -966809396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_1
+      name: Morgana_1
       rect:
         serializedVersion: 2
         x: 39
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81cc2eaee715344ae95935f99ec0a8e4
-      internalID: 1812521273
+      spriteID: e60ba6b8ff3bb42f6be488df5e544497
+      internalID: -515343518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_2
+      name: Morgana_2
       rect:
         serializedVersion: 2
         x: 7
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 521eabf3096854137875a5581c084b3f
-      internalID: 930001715
+      spriteID: 30f0a9a9af5b44a4e8954e4f52f2a1c8
+      internalID: -71668242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_3
+      name: Morgana_3
       rect:
         serializedVersion: 2
         x: 39
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f6e5c81e6fd24c44a220ba3d19d0beb
-      internalID: 609199533
+      spriteID: d307bc35980794ab7ad190e461605e8d
+      internalID: -1361757795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_4
+      name: Morgana_4
       rect:
         serializedVersion: 2
         x: 6
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fe8b69278814ac7848e16d41c8ab8c
-      internalID: -1340916018
+      spriteID: e95c8fdd548e14235b33bcf721f2a4f5
+      internalID: 1902078520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_5
+      name: Morgana_5
       rect:
         serializedVersion: 2
         x: 39
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e09f71272c9a4348866d99491f7b143
-      internalID: 1731119598
+      spriteID: 8476625f6e2f746c7b5e05ac3a3550c6
+      internalID: -869390738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_6
+      name: Morgana_6
       rect:
         serializedVersion: 2
         x: 71
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ef72b3a0e41f43a3aab6d9a285cd5e8
-      internalID: -1211021889
+      spriteID: 2c0a1d4746bc94d06b7d60bab793d896
+      internalID: -197046357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_7
+      name: Morgana_7
       rect:
         serializedVersion: 2
         x: 103
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85fc5221df5844180b97fa5230f5bb2d
-      internalID: 1438880190
+      spriteID: 3516c220c688f4413bfbf331e05bbc1f
+      internalID: -792582606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_8
+      name: Morgana_8
       rect:
         serializedVersion: 2
         x: 6
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45453c8cc51524c73ac434a38133d57d
-      internalID: 2128834375
+      spriteID: e89509c5f28da4b79a382d65b7f3138e
+      internalID: 705572871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_9
+      name: Morgana_9
       rect:
         serializedVersion: 2
         x: 39
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16df04e2329c544afaed69b59626c746
-      internalID: 1419477100
+      spriteID: 18ded8d0bb7304793b00babdd37f10e2
+      internalID: -726501996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_10
+      name: Morgana_10
       rect:
         serializedVersion: 2
         x: 71
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07b751df90ec4ca1b40e47b038fbef3
-      internalID: 1097375534
+      spriteID: 5fa9e661b355c4bf1b0080bee8336c7c
+      internalID: 1515619929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_11
+      name: Morgana_11
       rect:
         serializedVersion: 2
         x: 103
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a81ea3731baa4f59b3b369505566232
-      internalID: -139202213
+      spriteID: 150ac7c0bd1164795bf91a380bd68075
+      internalID: -632919089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_12
+      name: Morgana_12
       rect:
         serializedVersion: 2
         x: 134
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c9982d03e6c646a9b953ff62bf297ea
-      internalID: 2101876556
+      spriteID: d8c68b7d0e4dc4082a85010f94fdac8e
+      internalID: -1854570910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_13
+      name: Morgana_13
       rect:
         serializedVersion: 2
         x: 167
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62223836eee344ef999a93e516c3c923
-      internalID: 2135056420
+      spriteID: 2da07a3f7f959429f939990d0261db8a
+      internalID: -1235495858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_14
+      name: Morgana_14
       rect:
         serializedVersion: 2
         x: 199
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bb6fe59afcd64c5a828effd0a45b621
-      internalID: -179522773
+      spriteID: ce416d70680774c299cd19677f07ceff
+      internalID: 1779161048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_15
+      name: Morgana_15
       rect:
         serializedVersion: 2
         x: 231
@@ -426,14 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f2b20cf57487445aa0394faa141b7bc
-      internalID: 725217384
+      spriteID: 1f46cad97cc1e43ddbc756bd43ba7a01
+      internalID: -162312969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_16
+      name: Morgana_16
       rect:
         serializedVersion: 2
         x: 7
@@ -447,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c805913cbdd0547b18f24ea7097ac536
-      internalID: -1284717374
+      spriteID: cf5c7d03ba06742698913f9038467ac6
+      internalID: 1558269961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_17
+      name: Morgana_17
       rect:
         serializedVersion: 2
         x: 38
@@ -468,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b6b0188a197a42c5970418b0258dbed
-      internalID: -359506744
+      spriteID: a6c65126db1414e12ad8a9c32de3330e
+      internalID: -1919500049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_18
+      name: Morgana_18
       rect:
         serializedVersion: 2
         x: 69
@@ -489,14 +489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73b2935ab0f594bb79daf169ca4d34b8
-      internalID: -2102860601
+      spriteID: 4170d76c4af424feea77a2c4b62ba34f
+      internalID: -1183870883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_19
+      name: Morgana_19
       rect:
         serializedVersion: 2
         x: 100
@@ -510,14 +510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95eea0538f98f4aa99277c15219667d4
-      internalID: 978920914
+      spriteID: ae34b78a5629f49c9acd9f34915aa8e4
+      internalID: 1632677459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_20
+      name: Morgana_20
       rect:
         serializedVersion: 2
         x: 134
@@ -531,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cd4fd68ce655466fa9dc56dcbc243ec
-      internalID: -789655192
+      spriteID: 96a6bc314ce08432e84fb460417e5959
+      internalID: 489121827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_21
+      name: Morgana_21
       rect:
         serializedVersion: 2
         x: 166
@@ -552,14 +552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3edf71726d9a3494ca9f74adfe812667
-      internalID: -1131904110
+      spriteID: e2b15abca48844c6b991c4820149778e
+      internalID: 1353196315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_22
+      name: Morgana_22
       rect:
         serializedVersion: 2
         x: 7
@@ -573,14 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f7f8b36d3f6d443993c7c35818f3c0f
-      internalID: 1406426549
+      spriteID: d993ba279583c4bb1b4cda77ed67c013
+      internalID: 1293032835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_23
+      name: Morgana_23
       rect:
         serializedVersion: 2
         x: 38
@@ -594,14 +594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd5d00ee813a34332ad1c7a1a1c974d6
-      internalID: -1373982957
+      spriteID: 30d5dead685d64d11bdd7107cf96a04e
+      internalID: 328119824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_24
+      name: Morgana_24
       rect:
         serializedVersion: 2
         x: 71
@@ -615,20 +615,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6b99adc3237e43a884eb98267405b2a
-      internalID: -681003031
+      spriteID: 9be68059641074228bedf084e727548e
+      internalID: -224892531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_25
+      name: Morgana_25
       rect:
         serializedVersion: 2
         x: 102
-        y: 98
+        y: 97
         width: 18
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,14 +636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b12f859806b24afe949447981b777d8
-      internalID: -1532697172
+      spriteID: 3c8468e8bb00340d0bc7159fe6b16443
+      internalID: 88108930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_26
+      name: Morgana_26
       rect:
         serializedVersion: 2
         x: 134
@@ -657,14 +657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 206db8cf1191a4a03a8073602dd187d1
-      internalID: 1246603886
+      spriteID: 8c583964de66b4c798b7d1931463aded
+      internalID: -1176843479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_27
+      name: Morgana_27
       rect:
         serializedVersion: 2
         x: 166
@@ -678,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b017ae080a5343ac8f254eadb853fb3
-      internalID: 1782762364
+      spriteID: efc59a61e156a49eb963e094f4dc46e6
+      internalID: -1221345304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_28
+      name: Morgana_28
       rect:
         serializedVersion: 2
         x: 198
@@ -699,14 +699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c02fd2ee1839d4f3aad1232f7e57ef1c
-      internalID: 540573520
+      spriteID: 78899b44242944a76b937d745bac1e8e
+      internalID: -977767198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_29
+      name: Morgana_29
       rect:
         serializedVersion: 2
         x: 230
@@ -720,14 +720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a127e009b8604256b54f00fc96041ed
-      internalID: -1234004724
+      spriteID: 088bd80676bae4a4a8841af04fb58936
+      internalID: -1552793975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_30
+      name: Morgana_30
       rect:
         serializedVersion: 2
         x: 7
@@ -741,14 +741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63a19c385ed1e4fe29c341d212715e29
-      internalID: 380913800
+      spriteID: 38000e25c90ca4a9db16c1b4de1caf32
+      internalID: 1920778935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_31
+      name: Morgana_31
       rect:
         serializedVersion: 2
         x: 38
@@ -762,14 +762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efc25fcea74e2497fa2e4aed71b790f2
-      internalID: -1759885072
+      spriteID: 87b429441d07b41b4ab21589c43dcb24
+      internalID: 1113650705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_32
+      name: Morgana_32
       rect:
         serializedVersion: 2
         x: 70
@@ -783,14 +783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55e0b90b0c49f42e1a4c0a7692ae2351
-      internalID: 486042597
+      spriteID: efca8071d33c54aa6b099e238507de57
+      internalID: 73452749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_33
+      name: Morgana_33
       rect:
         serializedVersion: 2
         x: 7
@@ -804,14 +804,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687d8b10b47124c21a3ce819cd1be00d
-      internalID: -1681314116
+      spriteID: 520c27c9eaa2c4457a88eb82b2d4c492
+      internalID: -1715838081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_34
+      name: Morgana_34
       rect:
         serializedVersion: 2
         x: 37
@@ -825,14 +825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1418df6f29a2c4e88ba344ba94dd9038
-      internalID: 1953990950
+      spriteID: 6990e8220187540d890dac1d3e479c7b
+      internalID: -1945345483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_35
+      name: Morgana_35
       rect:
         serializedVersion: 2
         x: 70
@@ -846,245 +846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18d2db2784f1e4069a70be37db6138de
-      internalID: 1647273013
+      spriteID: 001622a0297884daf8b0aeb51e54d91b
+      internalID: 149562304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_36
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 32
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3f62f94674bd4fe19d618632d9a776c
-      internalID: 1023502936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_37
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 32
-        width: 21
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77ca0e4d3efdd4667b25e168abd909dd
-      internalID: 816888009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_38
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 32
-        width: 29
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 763debcbdcd584c158d0310873c98308
-      internalID: -1893008760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_39
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 32
-        width: 29
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58bc1dbfb55e8428a917c8f947f8ebcf
-      internalID: 1562754140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_40
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 32
-        width: 29
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4e2634187fba43459bb51abfb2a93ba
-      internalID: 882283652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_41
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 0
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f0b5d43f33304958a90ae1bb044c2e4
-      internalID: -1822671168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_42
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee4673f2a01af4f609791c542c0df84e
-      internalID: -2105074162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_43
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 0
-        width: 20
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5abb0934a82143169acb75fa3bd7b32
-      internalID: -1662118692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_44
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 0
-        width: 21
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b242a0ed7654b437e97b31ed63087b1d
-      internalID: 1776430088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_45
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 0
-        width: 21
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 619ddca19bf114a9f9dda17ca74fb159
-      internalID: -82443666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_46
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 0
-        width: 22
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d4aae25bac9746c2937a0cccaac394a
-      internalID: 620572625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Circe_47
+      name: Morgana_36
       rect:
         serializedVersion: 2
         x: 101
@@ -1098,19 +867,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db6f718bd8a854f958cfe0fe90a11b08
-      internalID: 174642564
+      spriteID: 46f2c40bdf9494fb9b465bb5a9f624d2
+      internalID: 113021542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_48
+      name: Morgana_37
       rect:
         serializedVersion: 2
         x: 134
         y: 0
-        width: 26
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1119,18 +888,207 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba1fb6d23b0846b68e0070b8889de83
-      internalID: -1711977168
+      spriteID: 465ae1df942b04a85a9d9c5d4a85e256
+      internalID: 1419484232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Circe_49
+      name: Morgana_38
       rect:
         serializedVersion: 2
-        x: 102
-        y: 65
+        x: 162
+        y: 32
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5371e3bb94c924a5bbdc6e8d799eeb4a
+      internalID: 1108686672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_39
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 32
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bb01777add0464085e6aec31c5cee3
+      internalID: -907370883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_40
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 32
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19afc5e4599f64db7b7f45325ad8b5b0
+      internalID: 225298614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_41
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196fcf26534144e71bece64eb81fff4b
+      internalID: 203753262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d855a3181ba246e7ac78acd8b716133
+      internalID: -1827159086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_43
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69580a0bf329c4912ab9e92b52c4b11f
+      internalID: -801123738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_44
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964da71942e6b408eacc2d271189416c
+      internalID: -395713946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc10ca83b2b14aad832da23730cef40
+      internalID: 221573247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_46
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e8f888d5a334dc28d088cbb781f70a
+      internalID: -1365856041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_47
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 66
         width: 18
         height: 23
       alignment: 0
@@ -1140,8 +1098,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 443efd9044d56494e8e21cc273426b22
-      internalID: 937952977
+      spriteID: 6348246bbb4ad4ad29ab17bc436b7476
+      internalID: 1741738627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_48
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b8a7e7aea3448da8f1ee69d3c0f6f
+      internalID: -991850434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morgana_49
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 32
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830dd2cbe84ee4f4fa74f6d6fbf27532
+      internalID: -1167572478
       vertices: []
       indices: 
       edges: []
@@ -1157,56 +1157,56 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Circe_0: -723172041
-      Circe_1: 1812521273
-      Circe_10: 1097375534
-      Circe_11: -139202213
-      Circe_12: 2101876556
-      Circe_13: 2135056420
-      Circe_14: -179522773
-      Circe_15: 725217384
-      Circe_16: -1284717374
-      Circe_17: -359506744
-      Circe_18: -2102860601
-      Circe_19: 978920914
-      Circe_2: 930001715
-      Circe_20: -789655192
-      Circe_21: -1131904110
-      Circe_22: 1406426549
-      Circe_23: -1373982957
-      Circe_24: -681003031
-      Circe_25: -1532697172
-      Circe_26: 1246603886
-      Circe_27: 1782762364
-      Circe_28: 540573520
-      Circe_29: -1234004724
-      Circe_3: 609199533
-      Circe_30: 380913800
-      Circe_31: -1759885072
-      Circe_32: 486042597
-      Circe_33: -1681314116
-      Circe_34: 1953990950
-      Circe_35: 1647273013
-      Circe_36: 1023502936
-      Circe_37: 816888009
-      Circe_38: -1893008760
-      Circe_39: 1562754140
-      Circe_4: -1340916018
-      Circe_40: 882283652
-      Circe_41: -1822671168
-      Circe_42: -2105074162
-      Circe_43: -1662118692
-      Circe_44: 1776430088
-      Circe_45: -82443666
-      Circe_46: 620572625
-      Circe_47: 174642564
-      Circe_48: -1711977168
-      Circe_49: 937952977
-      Circe_5: 1731119598
-      Circe_6: -1211021889
-      Circe_7: 1438880190
-      Circe_8: 2128834375
-      Circe_9: 1419477100
+      Morgana_0: -966809396
+      Morgana_1: -515343518
+      Morgana_10: 1515619929
+      Morgana_11: -632919089
+      Morgana_12: -1854570910
+      Morgana_13: -1235495858
+      Morgana_14: 1779161048
+      Morgana_15: -162312969
+      Morgana_16: 1558269961
+      Morgana_17: -1919500049
+      Morgana_18: -1183870883
+      Morgana_19: 1632677459
+      Morgana_2: -71668242
+      Morgana_20: 489121827
+      Morgana_21: 1353196315
+      Morgana_22: 1293032835
+      Morgana_23: 328119824
+      Morgana_24: -224892531
+      Morgana_25: 88108930
+      Morgana_26: -1176843479
+      Morgana_27: -1221345304
+      Morgana_28: -977767198
+      Morgana_29: -1552793975
+      Morgana_3: -1361757795
+      Morgana_30: 1920778935
+      Morgana_31: 1113650705
+      Morgana_32: 73452749
+      Morgana_33: -1715838081
+      Morgana_34: -1945345483
+      Morgana_35: 149562304
+      Morgana_36: 113021542
+      Morgana_37: 1419484232
+      Morgana_38: 1108686672
+      Morgana_39: -907370883
+      Morgana_4: 1902078520
+      Morgana_40: 225298614
+      Morgana_41: 203753262
+      Morgana_42: -1827159086
+      Morgana_43: -801123738
+      Morgana_44: -395713946
+      Morgana_45: 221573247
+      Morgana_46: -1365856041
+      Morgana_47: 1741738627
+      Morgana_48: -991850434
+      Morgana_49: -1167572478
+      Morgana_5: -869390738
+      Morgana_6: -197046357
+      Morgana_7: -792582606
+      Morgana_8: 705572871
+      Morgana_9: -726501996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

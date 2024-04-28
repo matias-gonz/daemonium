@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    Vector2 speed = new Vector2(5, 5);
+    Vector2 speed = new(5, 5);
     Vector2 movement;
     Rigidbody2D rigidbodyComponent;
     private Rigidbody2D _rigidbody2D;
@@ -25,7 +25,7 @@ public class PlayerScript : MonoBehaviour
             speed.x * Input.GetAxis("Horizontal"),
             speed.y * Input.GetAxis("Vertical")
         );
-        
+
         bool shoot = Input.GetButtonDown("Fire1");
         shoot |= Input.GetButtonDown("Fire2");
 
@@ -37,7 +37,7 @@ public class PlayerScript : MonoBehaviour
                 _weapon.Attack(false);
             }
         }
-        
+
         var dist = (transform.position - Camera.main.transform.position).z;
 
         var leftBorder = Camera.main.ViewportToWorldPoint(
@@ -73,7 +73,7 @@ public class PlayerScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         HealthScript enemy = collision.gameObject.GetComponent<HealthScript>();
-        
+
         if (enemy != null && enemy.isEnemy)
         {
             enemy.Damage(enemy.hp);
