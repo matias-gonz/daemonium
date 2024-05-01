@@ -42,7 +42,7 @@ public class EnemyScript : MonoBehaviour
         
         if (_weapon && _weapon.CanAttack)
         {
-            _weapon.Attack(true);
+            _weapon.Attack(true, null);
         }
         
         if (_renderer.IsVisibleFrom(Camera.main) == false)

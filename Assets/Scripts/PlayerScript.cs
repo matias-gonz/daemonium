@@ -8,17 +8,19 @@ public class PlayerScript : MonoBehaviour
     public Vector2 speed = new(5, 5);
     public KeyCode[] movementKeys = { KeyCode.W, KeyCode.A, KeyCode.S, KeyCode.D };
     public KeyCode shootKey = KeyCode.Space;
-    
+
     private Vector2 _movement;
     private Rigidbody2D _rigidbody2D;
     private WeaponScript _weapon;
     private HealthScript _health;
+    private Animator _animator;
 
     void Start()
     {
         _weapon = GetComponent<WeaponScript>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _health = GetComponent<HealthScript>();
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -32,7 +34,7 @@ public class PlayerScript : MonoBehaviour
         {
             _movement.y = -speed.y;
         }
-        
+
         if (Input.GetKey(movementKeys[3]))
         {
             _movement.x = speed.x;
@@ -41,16 +43,13 @@ public class PlayerScript : MonoBehaviour
         {
             _movement.x = -speed.x;
         }
-        
+
         bool shoot = Input.GetKey(shootKey);
 
-        if (shoot)
+        if (shoot && _weapon)
         {
-            if (_weapon)
-            {
-                // false because the player is not an enemy
-                _weapon.Attack(false);
-            }
+            // false because the player is not an enemy
+            _weapon.Attack(false, _animator);
         }
 
         var dist = (transform.position - Camera.main.transform.position).z;
@@ -91,6 +90,7 @@ public class PlayerScript : MonoBehaviour
         {
             enemy.Damage(enemy.hp);
             _health.Damage(_health.hp);
+            _animator.SetTrigger("Dye");
         }
     }
 }
