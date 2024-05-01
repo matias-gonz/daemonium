@@ -6,6 +6,12 @@ public class HealthScript : MonoBehaviour
 {
     public int hp = 1;
     public bool isEnemy = true;
+    private Animator _animator;
+
+    void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     public void Damage(int damageCount)
     {
@@ -13,7 +19,15 @@ public class HealthScript : MonoBehaviour
 
         if (hp <= 0)
         {
-            Destroy(gameObject);
+            if (_animator)
+            {
+                _animator.SetTrigger("Die");
+                Destroy(gameObject, 0.412f);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }
 

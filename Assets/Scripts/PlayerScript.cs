@@ -25,6 +25,11 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
+        if (_health.hp <= 0)
+        {
+            return;
+        }
+        
         _movement = new Vector2(0, 0);
         if (Input.GetKey(movementKeys[0]))
         {
@@ -90,7 +95,6 @@ public class PlayerScript : MonoBehaviour
         {
             enemy.Damage(enemy.hp);
             _health.Damage(_health.hp);
-            _animator.SetTrigger("Dye");
         }
     }
 }
