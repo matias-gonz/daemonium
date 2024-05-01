@@ -790,7 +790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_33
+      name: Morgana_34
       rect:
         serializedVersion: 2
         x: 7
@@ -811,7 +811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_34
+      name: Morgana_35
       rect:
         serializedVersion: 2
         x: 37
@@ -832,7 +832,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_35
+      name: Morgana_36
       rect:
         serializedVersion: 2
         x: 70
@@ -853,7 +853,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_36
+      name: Morgana_45
       rect:
         serializedVersion: 2
         x: 101
@@ -874,11 +874,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_37
+      name: Morgana_46
       rect:
         serializedVersion: 2
         x: 134
-        y: 0
+        y: 1
         width: 28
         height: 32
       alignment: 0
@@ -895,7 +895,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_38
+      name: Morgana_39
       rect:
         serializedVersion: 2
         x: 162
@@ -916,7 +916,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_39
+      name: Morgana_40
       rect:
         serializedVersion: 2
         x: 194
@@ -937,7 +937,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_40
+      name: Morgana_41
       rect:
         serializedVersion: 2
         x: 226
@@ -958,7 +958,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_41
+      name: Morgana_42
       rect:
         serializedVersion: 2
         x: 7
@@ -979,7 +979,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_42
+      name: Morgana_43
       rect:
         serializedVersion: 2
         x: 40
@@ -1000,7 +1000,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_43
+      name: Morgana_44
       rect:
         serializedVersion: 2
         x: 71
@@ -1021,11 +1021,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_44
+      name: Morgana_47
       rect:
         serializedVersion: 2
         x: 166
-        y: 0
+        y: 1
         width: 21
         height: 24
       alignment: 0
@@ -1042,7 +1042,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_45
+      name: Morgana_48
       rect:
         serializedVersion: 2
         x: 194
@@ -1063,10 +1063,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_46
+      name: Morgana_49
       rect:
         serializedVersion: 2
-        x: 225
+        x: 226
         y: 0
         width: 22
         height: 28
@@ -1084,7 +1084,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_47
+      name: Morgana_33
       rect:
         serializedVersion: 2
         x: 103
@@ -1105,7 +1105,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_48
+      name: Morgana_37
       rect:
         serializedVersion: 2
         x: 101
@@ -1113,7 +1113,7 @@ TextureImporter:
         width: 20
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1126,7 +1126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Morgana_49
+      name: Morgana_38
       rect:
         serializedVersion: 2
         x: 134
@@ -1134,7 +1134,7 @@ TextureImporter:
         width: 23
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1184,24 +1184,24 @@ TextureImporter:
       Morgana_30: 1920778935
       Morgana_31: 1113650705
       Morgana_32: 73452749
-      Morgana_33: -1715838081
-      Morgana_34: -1945345483
-      Morgana_35: 149562304
-      Morgana_36: 113021542
-      Morgana_37: 1419484232
-      Morgana_38: 1108686672
-      Morgana_39: -907370883
+      Morgana_33: 1741738627
+      Morgana_34: -1715838081
+      Morgana_35: -1945345483
+      Morgana_36: 149562304
+      Morgana_37: -991850434
+      Morgana_38: -1167572478
+      Morgana_39: 1108686672
       Morgana_4: 1902078520
-      Morgana_40: 225298614
-      Morgana_41: 203753262
-      Morgana_42: -1827159086
-      Morgana_43: -801123738
-      Morgana_44: -395713946
-      Morgana_45: 221573247
-      Morgana_46: -1365856041
-      Morgana_47: 1741738627
-      Morgana_48: -991850434
-      Morgana_49: -1167572478
+      Morgana_40: -907370883
+      Morgana_41: 225298614
+      Morgana_42: 203753262
+      Morgana_43: -1827159086
+      Morgana_44: -801123738
+      Morgana_45: 113021542
+      Morgana_46: 1419484232
+      Morgana_47: -395713946
+      Morgana_48: 221573247
+      Morgana_49: -1365856041
       Morgana_5: -869390738
       Morgana_6: -197046357
       Morgana_7: -792582606
