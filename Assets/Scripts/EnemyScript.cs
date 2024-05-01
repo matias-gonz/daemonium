@@ -8,6 +8,7 @@ public class EnemyScript : MonoBehaviour
     private WeaponScript _weapon;
     private Collider2D _collider;
     private SpriteRenderer _renderer;
+    private Animator _animator;
 
 
     void Awake()
@@ -15,6 +16,7 @@ public class EnemyScript : MonoBehaviour
         _weapon = GetComponentInChildren<WeaponScript>();
         _collider = GetComponent<Collider2D>();
         _renderer = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
     }
     
     void Start()
@@ -42,7 +44,7 @@ public class EnemyScript : MonoBehaviour
         
         if (_weapon && _weapon.CanAttack)
         {
-            _weapon.Attack(true, null);
+            _weapon.Attack(true, _animator);
         }
         
         if (_renderer.IsVisibleFrom(Camera.main) == false)

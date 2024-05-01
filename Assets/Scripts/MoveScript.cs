@@ -12,6 +12,7 @@ public class MoveScript : MonoBehaviour
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        StartCoroutine(ZigZagger());
     }
     
     void FixedUpdate()
@@ -21,5 +22,16 @@ public class MoveScript : MonoBehaviour
             speed.y * direction.y
         );
         _rigidbody2D.velocity = movement;
+    }
+
+    private IEnumerator ZigZagger()
+    {
+        while (true)
+        {
+            WaitForSeconds wait = new WaitForSeconds(1);
+            yield return wait;
+
+            direction.y *= -1;
+        }
     }
 }

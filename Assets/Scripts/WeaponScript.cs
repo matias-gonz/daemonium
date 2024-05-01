@@ -10,7 +10,7 @@ public class WeaponScript : MonoBehaviour
 
     void Start()
     {
-        _shootCooldown = shootingRate;
+        _shootCooldown = 0f;
     }
 
     void Update()
@@ -35,7 +35,7 @@ public class WeaponScript : MonoBehaviour
 
         if (isEnemy)
         {
-            _shootCooldown = Random.Range(0.1f, shootingRate);
+            _shootCooldown = Random.Range(0.2f, shootingRate);
         }
         else
         {

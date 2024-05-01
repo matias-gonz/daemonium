@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1816457983
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: -228874218, guid: ff517acdcb63643638c7b1baf77d7e05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd01ee8557a3a4161ad67edc0ead94da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 4, y: 4}
+  speed: {x: 3.5, y: 3.5}
   direction: {x: -1, y: 0}
   movement: {x: 0, y: 0}
 --- !u!114 &5791141374748230933
@@ -270,4 +270,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 4376280752549594544, guid: b137b5c43fcf94778b1f6c00897a9e9f, type: 3}
-  shootingRate: 1.5
+  shootingRate: 2
