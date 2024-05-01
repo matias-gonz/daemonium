@@ -22,7 +22,7 @@ public class HealthScript : MonoBehaviour
             if (_animator)
             {
                 _animator.SetTrigger("Die");
-                Destroy(gameObject, 0.4f);
+                Destroy(gameObject, _animator.GetCurrentAnimatorStateInfo(0).length);
             }
             else
             {
