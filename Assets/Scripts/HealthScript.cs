@@ -16,19 +16,19 @@ public class HealthScript : MonoBehaviour
     public void Damage(int damageCount)
     {
         hp -= damageCount;
-
-        if (hp <= 0)
+        if (hp > 0)
         {
-            if (_animator)
-            {
-                _animator.SetTrigger("Die");
-                Destroy(gameObject, _animator.GetCurrentAnimatorStateInfo(0).length);
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
+            return;
         }
+
+        if (!_animator)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        _animator.SetTrigger("Die");
+        Destroy(gameObject, _animator.GetCurrentAnimatorStateInfo(0).length);
     }
 
     void OnTriggerEnter2D(Collider2D otherCollider)
