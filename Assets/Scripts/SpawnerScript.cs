@@ -9,7 +9,9 @@ public class SpawnerScript : MonoBehaviour
     public GameObject[] entities;
     public float[] entitiesSpawnProbabilityDistribution;
     public float maxSpawnRate = 1.5f;
+    public float minSpawnRate = 0f;
     public Vector2 spawnArea = new(0, 4);
+    public GameObject father;
 
     private void Start()
     {
@@ -20,7 +22,7 @@ public class SpawnerScript : MonoBehaviour
     {
         while (true)
         {
-            WaitForSeconds wait = new WaitForSeconds(Random.Range(0f, maxSpawnRate));
+            WaitForSeconds wait = new WaitForSeconds(Random.Range(minSpawnRate, maxSpawnRate));
             yield return wait;
             
             Vector3 spawnOffset = new Vector3(
@@ -37,7 +39,11 @@ public class SpawnerScript : MonoBehaviour
             {
                 if (randomValue < entitiesSpawnProbabilityDistribution[i])
                 {
-                    Instantiate(entities[i], spawnPosition, entities[i].transform.rotation);
+                    var entity = Instantiate(entities[i], spawnPosition, entities[i].transform.rotation);
+                    if (father)
+                    {
+                        entity.transform.parent = father.transform;
+                    }
                     break;
                 }
             }
