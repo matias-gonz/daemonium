@@ -45,6 +45,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeebf2aa8fc474afeb2eae87948cf293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerDieSounds:
+  - {fileID: 8300000, guid: 698904a02b16847d29afa4aafb9a2a0e, type: 3}
+  - {fileID: 8300000, guid: 37e5f11c7ec8841f687f824780a6d2c1, type: 3}
+  AttackSounds:
+  - {fileID: 8300000, guid: 9de514c945028422497dfdf109b7ad9f, type: 3}
+  - {fileID: 8300000, guid: 2c69dcfc21455433bb1c1ce9d90a2b94, type: 3}
+  - {fileID: 8300000, guid: 46fe2f5334ddf42fc8c83bd1489701ad, type: 3}
+  - {fileID: 8300000, guid: 720c1af14a2f54b3b9dfb0fb0e5980a3, type: 3}
+  - {fileID: 8300000, guid: a675d66915f2946adbe7ac7efe0302a5, type: 3}
+  - {fileID: 8300000, guid: ad0a966c60f7145a396e3d98d92316ab, type: 3}
+  - {fileID: 8300000, guid: 54a81c3e4c42b4805beece1a3016a2a2, type: 3}
+  EnemyDieSounds:
+  - {fileID: 8300000, guid: bc3e4e2af1ab24049a30272f56a1d029, type: 3}
+  - {fileID: 8300000, guid: 45038bbcd030840829bec5cf4a58b6d8, type: 3}
+  UIClickSounds:
+  - {fileID: 8300000, guid: 4d6affc67c27847408ca0023dd0ff5bc, type: 3}
 --- !u!82 &-2494564964733865547
 AudioSource:
   m_ObjectHideFlags: 0

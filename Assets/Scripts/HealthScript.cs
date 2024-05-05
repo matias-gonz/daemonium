@@ -20,6 +20,15 @@ public class HealthScript : MonoBehaviour
         {
             return;
         }
+        
+        if (isEnemy)
+        {
+            SoundScript.Instance.PlayEnemyDieSound();
+        }
+        else
+        {
+            SoundScript.Instance.PlayPlayerDieSound();
+        }
 
         if (!_animator)
         {

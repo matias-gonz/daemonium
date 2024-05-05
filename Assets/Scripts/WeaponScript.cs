@@ -33,6 +33,11 @@ public class WeaponScript : MonoBehaviour
             animator.SetTrigger("Attack");
         }
 
+        if (!isEnemy)
+        {
+            SoundScript.Instance.PlayAttackSound();
+        }
+
         if (isEnemy)
         {
             _shootCooldown = Random.Range(0.2f, shootingRate);

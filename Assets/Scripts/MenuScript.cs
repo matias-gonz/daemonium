@@ -23,6 +23,7 @@ public class MenuScript : MonoBehaviour
     
     public void PressSinglePlayer()
     {
+        SoundScript.Instance.PlayUIClickSound();
         ApplicationScript.Gamemode = ApplicationScript.GamemodeEnum.SinglePlayer;
         ApplicationScript.Character = ApplicationScript.CharacterEnum.Morgana;
         mainMenu.gameObject.SetActive(false);
@@ -31,6 +32,7 @@ public class MenuScript : MonoBehaviour
     
     public void PressMultiPlayer()
     {
+        SoundScript.Instance.PlayUIClickSound();
         ApplicationScript.Gamemode = ApplicationScript.GamemodeEnum.MultiPlayer;
         mainMenu.gameObject.SetActive(false);
         multiplayerMenu.gameObject.SetActive(true);
@@ -39,12 +41,14 @@ public class MenuScript : MonoBehaviour
     
     public void PressCirce()
     {
+        SoundScript.Instance.PlayUIClickSound();
         ApplicationScript.Character = ApplicationScript.CharacterEnum.Circe;
         StartGame();
     }
     
     public void PressMorgana()
     {
+        SoundScript.Instance.PlayUIClickSound();
         ApplicationScript.Character = ApplicationScript.CharacterEnum.Morgana;
         StartGame();
     }
